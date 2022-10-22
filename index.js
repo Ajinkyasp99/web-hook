@@ -10,7 +10,7 @@ app.listen(process.env.PORT,()=>{
     console.log("web hook is responding");
 });
 
-app.get("/webhook", (req,res)=>{
+app.get("/facebook", (req,res)=>{
     let mode=req.query["hub.mode"];
     let challange=req.query["hub.challenge"];
     let token=req.query["hub.verify_token"];
