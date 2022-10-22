@@ -2,7 +2,7 @@
   "name": "whats_app_web_hook",
   "version": "1.0.0",
   "description": "this is my whats app hook",
-  "main": "index.js",
+  "main": "node index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
